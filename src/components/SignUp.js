@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../assets/css/signup.css";
+import { Link } from 'react-router-dom';
 const SignUp = () => {
     const [name,setName]=useState('');
     const [email,setEmail]=useState('');
@@ -90,7 +91,7 @@ const SignUp = () => {
                         required=""
                       />
                     </div>
-                    <div className="mt-4   text-black">
+                    <div className="mt-4  text-black">
                     
                       <button
                         type="submit"
@@ -98,24 +99,19 @@ const SignUp = () => {
                       >
                         Create Account
                       </button>
-    
-                     
-                     
                     </div>
-                    <div className="form-row  text-black">
+                    {/* <div className="form-row  text-black">
                     
-                      <button
-                        
+                      <button   
                         type="submit"
-                        className="btn d-inline-block  my-faq-text  my-google-signup-btn  shadow my-button text-white rounded-3 py-3 mt-4 btn-sm "
+                        className="btn d-inline-block  my-faq-text  my-google-signup-btn shadow border-black my-button text-black rounded-3 py-3 mt-4 btn-sm "
                       >
                         Sign up with Google
                       </button>
-    
-                     
-                     
-                    </div>
-                    
+                    </div> */}
+                    <div className="form-row mt-4 mx-5 text-black">
+                    <h6 className='d-inline-block text-black'>Already have account? <span className='d-inline-block mx-4  text-decoration-none ' ><Link to={'/login'} className='text-black' >LogIn</Link> </span></h6> 
+                  </div>
                     
                   </form>
                 </div>

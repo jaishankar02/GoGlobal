@@ -45,7 +45,7 @@ input[type="name"]{
 
 .my-signup-btn{
     width: 60%;
-    background-color: #45755B;
+    background-color: #45755B !important;
     font-weight: "bold";
 }
 .my-forgot-btn{
@@ -59,13 +59,13 @@ input[type="name"]{
 } */
 /* signup css */
 .my-element-area-signup{
-    margin-top: 5%;
+    margin-top: 8%;
 }
 .my-form-start-signup{
     margin-top: 8%;
 }
 .my-google-signup-btn{
     width: 60%;
-    /* background-color: #45755B; */
+    background-color: transparent;
     font-weight: "bold";
 }
