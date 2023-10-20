@@ -1,9 +1,10 @@
 
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, ScrollRestoration, createRoutesFromElements, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Login from './components/Login';
 const RouteJSX = (
   <>
-    {/* <Route index element={<Button />} /> */}
+    <Route index element={<Login />} />
   </>
 );
 const routes = createRoutesFromElements(RouteJSX);
