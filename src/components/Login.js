@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/login.css";
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <section className="p-0  my-element-area font-family">
@@ -92,7 +93,9 @@ const Login = () => {
                  </button>
                  
                 </div>
-                
+                <div className="form-row mt-4 mx-5 text-black">
+                    <h6 className='d-inline-block text-black'>Don't have account? <span className='d-inline-block mx-4  text-decoration-none ' ><Link to={'/signup'} className='text-black' >Signup</Link> </span></h6> 
+                  </div>
                 
               </form>
             </div>
