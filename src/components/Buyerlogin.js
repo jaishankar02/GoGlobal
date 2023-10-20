@@ -1,27 +1,14 @@
-import React, { useState } from "react";
-import axios from 'axios';
+import React, { useState } from 'react'
 import "../assets/css/login.css";
 import { Link } from "react-router-dom";
-const Login = () => {
+const Buyerlogin = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
-    const login = (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        const url = "http://localhost:8800/api/user/login";
-        axios.post(url, {
-            "email": email,
-            "password": password
-        }).then((res) => {
-            console.log(res);
-        })
-    }
-    return (
-        <section className="p-0  my-element-area font-family">
+  return (
+    <section className="p-0  my-element-area font-family">
             <div className="row gx-0  ">
                 <h1 className="text-center">
-                    You can start Selling once you complete this
+                    You can start Buying once you complete this
                 </h1>
                 <div className="col-lg-7 col-md-12 mt-lg-0 mt-5 align-self-center">
                     {/* <h1
@@ -70,7 +57,7 @@ const Login = () => {
                             <h6 className="form-heading text-black text-start mt-4 fw-bold">
                                 Enter your details below
                             </h6>
-                            <form className="mt-5 my-form" onSubmit={login}>
+                            <form className="mt-5 my-form">
                                 <div className="form-row ">
                                     <label htmlFor="email" />
                                     <input
@@ -113,7 +100,7 @@ const Login = () => {
 
                                 </div>
                                 <div className="form-row mt-4 mx-5 text-black">
-                                    <h6 className='d-inline-block text-black'>Don't have account? <span className='d-inline-block mx-4  text-decoration-none ' ><Link to={'/signup'} className='text-black' >Signup</Link> </span></h6>
+                                    <h6 className='d-inline-block text-black'>Don't have account? <span className='d-inline-block mx-4  text-decoration-none ' ><Link to={'/buyersignup'} className='text-black' >Signup</Link> </span></h6>
                                 </div>
 
                             </form>
@@ -122,7 +109,7 @@ const Login = () => {
                 </div>
             </div>
         </section>
-    );
-};
+  )
+}
 
-export default Login;
+export default Buyerlogin

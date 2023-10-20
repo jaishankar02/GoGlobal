@@ -1,0 +1,34 @@
+.my-search-container{
+    /* border:1px solid red; */
+    background-color: #45755B;
+}
+.my-h2{
+    background-color: transparent;
+}
+.search-btn{
+    border: none;
+    background-color: transparent;
+    
+}
+.my-search-bg {
+    background-color: white;
+}
+.my-search-bar{
+    border: none;
+    background-color: white;
+}
+.my-search-btn-icon{
+    background-color: transparent;
+    border: none;
+
+}
+.my-seller-btn{
+    border: 1px solid white;
+}
+.my-seller-btn:hover{
+    scale: 1.1;
+    transition: ease 0.5s;
+}
+.my-like-icon{
+    font-size: 26px;
+}

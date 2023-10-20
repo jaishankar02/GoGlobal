@@ -1,0 +1,38 @@
+.my-hero-section{
+    background-color: #45755B;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.my-transparent-part{
+    background-color: transparent;
+}
+.my-hero-login-btn{
+    background-color: white;
+    
+}
+.my-hero-img{
+    height: 450px;
+    border-bottom-right-radius: 70px;
+    width: 130%;
+    margin-left: -40%;
+}
+.my-sec2-heading{
+    color: #45755B;
+}
+.my-car-item-img {
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+.my-img-in-cart{
+    text-align: center;
+}
+.my-every-item-detail{
+    margin-left: 10%;
+}
+.my-home-item-card{
+    background-color: #45755B;
+}
+.my-trans-part{
+    background-color: transparent;
+}

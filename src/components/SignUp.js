@@ -23,7 +23,7 @@ const SignUp = () => {
         <section className="p-0  my-element-area-signup font-family">
             <div className="row gx-0  ">
                 <h1 className="text-center">
-                    You can start Buying once you complete this
+                    You can start Selling once you complete this
                 </h1>
                 <div className="col-lg-7 col-md-12 mt-lg-0 mt-5 align-self-center">
                     {/* <h1
