@@ -1,0 +1,71 @@
+/* form */
+.my-element-area{
+    margin-top: 8%;
+}
+.my-form-start{
+    margin-top: 15%;
+}
+
+.form-section {
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    margin: auto;
+    width: 100%;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    /* width: 200px; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: rgb(100, 99, 99);
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="name"]{
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    padding: 7px;
+    /* border-radius: 3px; */
+    border-bottom: black 1px solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    /* background-color: #f9be40c1; */
+}
+
+.my-signup-btn{
+    width: 60%;
+    background-color: #45755B;
+    font-weight: "bold";
+}
+.my-forgot-btn{
+    margin-top: 0%;
+}
+/* .my-form{
+    border: black 1px solid;
+} */
+/* .text-info{
+   color: #FF8400 !important;
+} */
+/* signup css */
+.my-element-area-signup{
+    margin-top: 5%;
+}
+.my-form-start-signup{
+    margin-top: 8%;
+}
+.my-google-signup-btn{
+    width: 60%;
+    /* background-color: #45755B; */
+    font-weight: "bold";
+}
