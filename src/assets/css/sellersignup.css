@@ -1,0 +1,48 @@
+.p-seller-page {
+    font-size: 32px;
+}
+
+.seller-boxes {
+
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    
+     outline: none;
+     border-bottom: 2px solid black;
+    
+}
+.select-seller{
+    width: 350px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -0.5rem;
+   
+}
+
+.my-login-btn-seller {
+    width: 50%;
+    padding: 8px;
+    background-color: #0e0e0e !important;
+    margin-bottom: 4rem;
+}
+
+.image-side{
+    width: 500px;
+    height: 300px;
+    
+}
+.faq-side{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+}
+.line-last-seller{
+    border: 2px solid black;
+    width: 90%;
+    margin-left: 2rem;
+}
+.para-last-seller{
+    font-size: 30px;
+}

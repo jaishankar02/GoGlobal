@@ -8,11 +8,17 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Buyerlogin from './components/Buyerlogin';
 import Buyersignup from './components/Buyersignup';
+import Billing from './components/Billing';
+import Sellersignup from './components/Sellersignup';
+import Cartlist from './components/Cartlist';
 const RouteJSX = (
   <>
     <Route path='/' element={<Layout />}>
       <Route index element={<Home />} />
       <Route path='/contact'  element={<Contact />} />
+      <Route path='/billing'  element={<Billing />} />
+      <Route path='/sellersignup'  element={<Sellersignup />} />
+      <Route path='/cartlist'  element={<Cartlist />} />
     </Route>
     <Route path='/login' element={<Login />} />
     <Route path='/buyerlogin' element={<Buyerlogin />} />

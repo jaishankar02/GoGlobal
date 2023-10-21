@@ -1,0 +1,87 @@
+.p-listing-page {
+    font-size: 24px;
+}
+
+.list-boxes {
+    font-family: 'Poppins', sans-serif;
+    width: 380px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+
+}
+
+.list-boxes-2 {
+
+    font-family: 'Poppins', sans-serif;
+    width: 80px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+
+
+}
+
+.list-boxes-3 {
+
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.form-row-list-page{
+    width: 400px;
+}
+
+.list-boxes-4 {
+
+    font-family: 'Poppins', sans-serif;
+    width: 170px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    
+}
+
+.select-list {
+    width: 380px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+
+}
+
+.my-login-btn-list {
+    width: 50%;
+    padding: 8px;
+    background-color: #0e0e0e !important;
+    margin-bottom: 4rem;
+}
+
+.image-side-list {
+    width: 500px;
+    height: 300px;
+
+}
+
+.faq-side-list {
+    width: 640px;
+    height: 480px;
+    border: 2px solid black;
+    margin-top: 10rem;
+    margin-left: -10rem;
+}
+.my-list-btn{
+    width: 30%;
+    background-color: #45755B !important;
+    font-weight: "bold";
+    margin-left: 4rem;
+    margin-bottom: 2px;
+    
+}

@@ -3,7 +3,7 @@ import "../assets/css/contact.css";
 const Contact = () => {
   return (
     <section>
-    <div className="container main-container ">
+    <div className="container main-container mb-5">
       <div className="row">
         <div className="col-4 main-col-box  shadow rounded-2">
           <div className="box-one">
@@ -74,10 +74,10 @@ const Contact = () => {
               defaultValue={"Your message"}
             />
           </div>
-          <div className="form-row  mt-4  text-black">
+          <div className="form-row    text-black">
             <button
               type="submit"
-              className="btn my-contact-btn  shadow my-button-login text-white rounded-2 py-3 mt-2 btn-sm "
+              className="btn my-contact-btn mb-4  shadow my-button-login text-white rounded-2 py-3 mt-2 btn-sm "
             >
               Send Messsage
             </button>

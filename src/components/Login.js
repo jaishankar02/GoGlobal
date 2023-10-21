@@ -81,7 +81,7 @@ const Login = () => {
                                 <div className="form-row ">
                                     <label htmlFor="email" />
                                     <input
-                                        className="text-start float-start"
+                                        className="text-start my-login-inputs float-start"
                                         type="email"
                                         id="email"
                                         placeholder="Email or Phone Number"
@@ -94,7 +94,7 @@ const Login = () => {
                                 <div className="form-row mt-5  text-black">
                                     <label className="border-bottom" htmlFor="student-name" />
                                     <input
-                                        className="text-start float-start"
+                                        className="text-start my-login-inputs float-start"
                                         type="text"
                                         id="password"
                                         placeholder="Password"

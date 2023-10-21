@@ -79,7 +79,7 @@ const SignUp = () => {
                                 <div className="form-row ">
                                     <label htmlFor="email" />
                                     <input
-                                        className="text-start float-start"
+                                        className="text-start my-signup-inputs float-start"
                                         type="Name"
                                         id="Name"
                                         placeholder="Name"
@@ -92,7 +92,7 @@ const SignUp = () => {
                                 <div className="form-row mt-5 ">
                                     <label htmlFor="email" />
                                     <input
-                                        className="text-start float-start"
+                                        className="text-start my-signup-inputs float-start"
                                         type="email"
                                         id="email"
                                         placeholder="Email or Phone Number"
@@ -105,7 +105,7 @@ const SignUp = () => {
                                 <div className="form-row mt-5  text-black">
                                     <label className="border-bottom" htmlFor="student-name" />
                                     <input
-                                        className="text-start float-start"
+                                        className="text-start my-signup-inputs float-start"
                                         type="text"
                                         id="password"
                                         placeholder="Password"

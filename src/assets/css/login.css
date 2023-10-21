@@ -29,9 +29,7 @@ label {
 
 }
 
-input[type="text"],
-input[type="email"],
-input[type="name"]{
+.my-login-inputs{
     font-family: 'Poppins', sans-serif;
     width: 60%;
     padding: 7px;
