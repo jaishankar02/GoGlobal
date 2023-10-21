@@ -43,13 +43,7 @@ const Home = () => {
                 cookies.set("access", newAccessToken, { path: "/" });
             }
             const token = cookies.get("access", { path: "/" });
-            return await axios.post('http://localhost:8800/api/product/selectByCategory', {
-                productcategory: "hat"
-            }, {
-                headers: {
-                    Authorization: "Bearer " + token
-                }
-            });
+            return await axios.get('http://localhost:8800/api/product/featuredProduct');
         },
         {
             refetchOnWindowFocus: false,
@@ -109,7 +103,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-12 mx-5 gx-lg-5">
                         {
-                            homeProducts?.data?.productArr?.map((element) => {
+                            homeProducts?.data?.featuredProduct?.map((element) => {
                                 return <span className="mx-3">
 
                                     <Item data={element} />

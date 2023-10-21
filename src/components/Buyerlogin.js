@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "../assets/css/login.css";
 import { Link } from "react-router-dom";
 import axios from 'axios';
+import Cookies from 'universal-cookie';
 const Buyerlogin = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -14,7 +15,10 @@ const Buyerlogin = () => {
             "email": email,
             "password": password
         }).then((res) => {
-            console.log(res);
+            const cookies = new Cookies();
+            cookies.set('sellerRefresh', res.data.refreshToken, { path: '/' });
+            cookies.set('sellerAccess', res.data.accessToken, { path: '/' });
+            console.log(res.data.accessToken);
         });
     }
     return (
