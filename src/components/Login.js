@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import "../assets/css/login.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import Cookies from 'universal-cookie';
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
+    const navigate = useNavigate();
     const login = (e) => {
         e.preventDefault();
         e.stopPropagation();
@@ -14,7 +15,13 @@ const Login = () => {
             "email": email,
             "password": password
         }).then((res) => {
-            console.log(res);
+            console.log(res.data);
+
+            // console.log(req.cookie);
+            const cookies = new Cookies();
+            cookies.set('refresh', res.data.refreshToken, { path: '/' });
+            cookies.set('access', res.data.accessToken, { path: '/' });
+            navigate('/', { replace: true });
         })
     }
     return (

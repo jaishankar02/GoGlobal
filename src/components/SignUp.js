@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import "../assets/css/signup.css";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 const SignUp = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
+    const navigate = useNavigate();
     const signup = (e) => {
         e.preventDefault();
         e.stopPropagation();
@@ -17,7 +17,11 @@ const SignUp = () => {
             "password": password
         }).then((res) => {
             console.log(res);
+            navigate('/login', { replace: true });
         })
+            .catch((err) => {
+                console.log(err);
+            })
     }
     return (
         <section className="p-0  my-element-area-signup font-family">

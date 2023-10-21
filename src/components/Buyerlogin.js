@@ -1,11 +1,24 @@
 import React, { useState } from 'react'
 import "../assets/css/login.css";
 import { Link } from "react-router-dom";
+import axios from 'axios';
 const Buyerlogin = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-  return (
-    <section className="p-0  my-element-area font-family">
+
+    const Sellerlogin = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const url = "http://localhost:8800/api/seller/sellerLogin";
+        axios.post(url, {
+            "email": email,
+            "password": password
+        }).then((res) => {
+            console.log(res);
+        });
+    }
+    return (
+        <section className="p-0  my-element-area font-family">
             <div className="row gx-0  ">
                 <h1 className="text-center">
                     You can start Buying once you complete this
@@ -57,7 +70,7 @@ const Buyerlogin = () => {
                             <h6 className="form-heading text-black text-start mt-4 fw-bold">
                                 Enter your details below
                             </h6>
-                            <form className="mt-5 my-form">
+                            <form className="mt-5 my-form" onSubmit={Sellerlogin}>
                                 <div className="form-row ">
                                     <label htmlFor="email" />
                                     <input
@@ -109,7 +122,7 @@ const Buyerlogin = () => {
                 </div>
             </div>
         </section>
-  )
+    )
 }
 
 export default Buyerlogin
