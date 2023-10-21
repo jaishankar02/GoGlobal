@@ -1,0 +1,58 @@
+.box-profile {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #8AC0A0;
+ 
+}
+
+.inner-profile{
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    background-color: #D9D9D9;
+    margin-left: -4rem;
+    margin-top: 2rem;
+    display: inline-block;
+    border-radius: 10%;
+    
+}
+/* .my-profile-icons{
+    height: 100px;
+    width: 80px;
+    display: inline-block;
+} */
+.para-profile{
+    font-size: 22px;
+    margin-top: 0rem;
+    display: inline-block;
+    margin-left: 18rem;
+    width: 100%;
+
+}
+.my-profile-btn{
+    width: 30%;
+    /* background-color: #45755B !important; */
+    border: none;
+    font-weight: "bold";
+    display: inline-block;
+}
+
+.label-last-profile{
+    margin-top: 0.3px;
+    margin-left: 3.9rem;
+}
+
+.hr-line-profile
+{
+    width: 60%;
+    margin-left: 3.8rem;
+
+}
+.para-sell-dash{
+    width: 100%;
+    margin-left: 18rem;
+}
+.my-seller-text {
+    font-size: 16px !important;
+}

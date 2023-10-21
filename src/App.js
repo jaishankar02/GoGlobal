@@ -16,6 +16,8 @@ import Productlist from './components/Productlist';
 import Profile from './components/Profile';
 import Productcategory from './components/Productcategory';
 import Profileview from './components/Profileview';
+import Productpreview from './components/Productpreview';
+import Sellerdashboard from './components/Sellerdashboard';
 const RouteJSX = (
   <>
     <Route path='/' element={<Layout />}>
@@ -29,6 +31,8 @@ const RouteJSX = (
       <Route path='/productcategory'  element={<Productcategory />} />
       <Route path='/profile'  element={<Profile />} />
       <Route path='/profileview'  element={<Profileview />} />
+      <Route path='/sellerdashboard'  element={<Sellerdashboard/>} />
+      <Route path='/productpreview/:productID'  element={<Productpreview/>} />
     </Route>
     <Route path='/login' element={<Login />} />
     <Route path='/buyerlogin' element={<Buyerlogin />} />

@@ -114,7 +114,7 @@ const Home = () => {
                             homeProducts?.data?.featuredProduct?.map((element) => {
                                 return <span className="mx-3">
 
-                                    <Item data={element} />
+                                  <Link to={'/productpreview/:productID'}><Item data={element} /></Link>  
                                 </span>
                             })
                         }

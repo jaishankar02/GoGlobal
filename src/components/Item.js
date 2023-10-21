@@ -15,7 +15,7 @@ const Item = ({ data }) => {
                 {" "}
                 <img
                   className="my-car-item-img  align-item-center "
-                  src={`http://http//localhost:8800/images/${data?.productImage}`}
+                  src={`http://localhost:8800/images/${data?.productImage}`}
                 />
               </div>
             </div>
