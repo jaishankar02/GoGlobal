@@ -33,7 +33,7 @@ const Mycarousel = () => {
                     </button>
                     <button
                       style={{ backgroundColor: "white", fontWeight: "bold" }}
-                      className="btn  my-faq-text my-colored-part  shadow my-button text-black rounded-5 mx-5 py-3 px-4 my-5 btn-lg "
+                      className="btn  my-faq-text my-colored-part  shadow my-button text-black rounded-5 mx-3 py-3 px-4 my-5 btn-lg "
                     >
                       Shop Now
                     </button>
@@ -82,7 +82,7 @@ const Mycarousel = () => {
                     </button>
                     <button
                       style={{ backgroundColor: "white", fontWeight: "bold" }}
-                      className="btn  my-faq-text my-colored-part  shadow my-button text-black rounded-5 mx-5 py-3 px-4 my-5 btn-lg "
+                      className="btn  my-faq-text my-colored-part  shadow my-button text-black rounded-5 mx-3 py-3 px-4 my-5 btn-lg "
                     >
                       Shop Now
                     </button>

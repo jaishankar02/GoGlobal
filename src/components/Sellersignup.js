@@ -102,6 +102,18 @@ const Sellersignup = () => {
                   />
                 </label>
               </div>
+              <div className="form-row-seller-page  mt-2">
+                <label htmlfor="PAN-number">
+                  <input
+                    className="text-start plc-text seller-boxes  "
+                    type="text"
+                    id="PAN-number"
+                    placeholder="Enter PAN No."
+                    name="PAN-number"
+                    required=""
+                  />
+                </label>
+              </div>
               
               <button
                 type="submit"

@@ -1,0 +1,47 @@
+.box-profile {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #8AC0A0;
+    /* background-color: #25e371; */
+}
+
+.inner-profile{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    background-color: #D9D9D9;
+    margin-left: 30rem;
+    margin-top: 10rem;
+
+    border-radius: 10%;
+    
+}
+
+.para-profile{
+    font-size: 24px;
+    margin-top: 14.5rem;
+    margin-left: 2rem;
+
+}
+.my-profile-btn{
+    width: 30%;
+    /* background-color: #45755B !important; */
+    border: none;
+    font-weight: "bold";
+}
+
+.label-last-profile{
+    margin-top: 0.3px;
+    margin-left: 3.9rem;
+}
+
+.hr-line-profile
+{
+    width: 60%;
+    margin-left: 3.8rem;
+
+}
+.my-profile-icon{
+    font-size: 250px;
+}

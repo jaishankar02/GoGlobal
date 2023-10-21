@@ -94,7 +94,7 @@ const Home = () => {
                     </div>
                     <div className="col-5 mx-5 px-4">
                         <h5 className="my-hero-heading px-3 mt-5 py-3 mx-5 ">
-                            <Link className=" fw-bolder mx-5 text-black" to={""}>
+                            <Link className=" fw-bolder mx-3 text-black" to={""}>
                                 View state wise products
                             </Link>
                         </h5>

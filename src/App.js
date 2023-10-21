@@ -12,6 +12,10 @@ import Billing from './components/Billing';
 import Sellersignup from './components/Sellersignup';
 import Cartlist from './components/Cartlist';
 import Storypage from './components/Storypage';
+import Productlist from './components/Productlist';
+import Profile from './components/Profile';
+import Productcategory from './components/Productcategory';
+import Profileview from './components/Profileview';
 const RouteJSX = (
   <>
     <Route path='/' element={<Layout />}>
@@ -21,6 +25,10 @@ const RouteJSX = (
       <Route path='/sellersignup'  element={<Sellersignup />} />
       <Route path='/cartlist'  element={<Cartlist />} />
       <Route path='/storypage'  element={<Storypage />} />
+      <Route path='/productlist'  element={<Productlist />} />
+      <Route path='/productcategory'  element={<Productcategory />} />
+      <Route path='/profile'  element={<Profile />} />
+      <Route path='/profileview'  element={<Profileview />} />
     </Route>
     <Route path='/login' element={<Login />} />
     <Route path='/buyerlogin' element={<Buyerlogin />} />

@@ -1,5 +1,7 @@
 import React from 'react'
 import "../assets/css/storypage.css";
+import Mycarousel from './Mycarousel';
+import Mycarousel2 from './Mycarousel2';
 const Storypage = () => {
   return (
     <section>
@@ -8,7 +10,7 @@ const Storypage = () => {
         <div className="col-12">
           <div className="label-after-state">
             <label
-              className="label-state text-center mt-5 rounded-2 text-white"
+              className="label-state text-center mt-5 w-25 rounded-2 text-white"
               htmlFor="state"
             >
               Himachal Pradesh
@@ -30,18 +32,17 @@ const Storypage = () => {
                       marginLeft: "2rem",
                       marginTop: "-4rem"
                     }}
-                    src="WhatsApp_Image_2023-10-21_at_2.38.43_PM-removebg-preview.png"
-                    alt=""
+                    src ={require('../assets/image/Rectangle_1-removebg-preview.png')}
                   />
-                  <p className=" text-white mx-2 para-state fw-bold">
+                  <p className=" text-black mx-2 para-state fw-bold">
                     Himachali Topi
                   </p>
-                  <p className="text-white mx-2 fw-bold"> 599/-</p>
+                  <p className="text-black mx-2 fw-bold"> 599/-</p>
                 </div>
                 <div className="state-button">
                   <button
                     type="submit"
-                    className="btn  my-state-btn-2 shadow my-button-state text-black rounded-3   btn-sm "
+                    className="btn mt-2 my-state-btn-2 shadow my-button-state text-black rounded-3   btn-sm "
                   >
                     view Product
                   </button>
@@ -55,15 +56,14 @@ const Storypage = () => {
             <div className="inner-div">
               <div className="over-one">
                 <div className="main-state d-inline-block">
-                  <img
+                <img
                     style={{
                       width: 200,
                       height: 150,
                       marginLeft: "2rem",
                       marginTop: "-4rem"
                     }}
-                    src="WhatsApp_Image_2023-10-21_at_2.38.43_PM-removebg-preview.png"
-                    alt=""
+                    src ={require('../assets/image/Rectangle_1-removebg-preview.png')}
                   />
                   <p className=" text-black mx-2 para-state fw-bold">
                     Himachali Topi
@@ -73,7 +73,7 @@ const Storypage = () => {
                 <div className="state-button">
                   <button
                     type="submit"
-                    className="btn  my-state-btn shadow my-button-state text-white rounded-3   btn-sm "
+                    className="btn mt-2  my-state-btn shadow my-button-state text-white rounded-3   btn-sm "
                   >
                     view Product
                   </button>
@@ -87,25 +87,24 @@ const Storypage = () => {
             <div className="inner-div">
               <div className="over-one-2">
                 <div className="main-state d-inline-block">
-                  <img
+                <img
                     style={{
                       width: 200,
                       height: 150,
                       marginLeft: "2rem",
                       marginTop: "-4rem"
                     }}
-                    src="WhatsApp_Image_2023-10-21_at_2.38.43_PM-removebg-preview.png"
-                    alt=""
+                    src ={require('../assets/image/Rectangle_1-removebg-preview.png')}
                   />
-                  <p className=" text-white mx-2 para-state fw-bold">
+                  <p className=" text-black mx-2 para-state fw-bold">
                     Himachali Topi
                   </p>
-                  <p className="text-white mx-2 fw-bold"> 599/-</p>
+                  <p className="text-black mx-2 fw-bold"> 599/-</p>
                 </div>
                 <div className="state-button">
                   <button
                     type="submit"
-                    className="btn  my-state-btn-2 shadow my-button-state text-black rounded-3   btn-sm "
+                    className="btn  mt-2 my-state-btn-2 shadow my-button-state text-black rounded-3   btn-sm "
                   >
                     view Product
                   </button>
@@ -121,15 +120,14 @@ const Storypage = () => {
             <div className="inner-div">
               <div className="over-one">
                 <div className="main-state d-inline-block">
-                  <img
+                <img
                     style={{
                       width: 200,
                       height: 150,
                       marginLeft: "2rem",
                       marginTop: "-4rem"
                     }}
-                    src="WhatsApp_Image_2023-10-21_at_2.38.43_PM-removebg-preview.png"
-                    alt=""
+                    src ={require('../assets/image/Rectangle_1-removebg-preview.png')}
                   />
                   <p className=" text-black mx-2 para-state fw-bold">
                     Himachali Topi
@@ -139,7 +137,7 @@ const Storypage = () => {
                 <div className="state-button">
                   <button
                     type="submit"
-                    className="btn  my-state-btn shadow my-button-state text-white rounded-3   btn-sm "
+                    className="btn mt-2 my-state-btn shadow my-button-state text-white rounded-3   btn-sm "
                   >
                     view Product
                   </button>
@@ -153,25 +151,24 @@ const Storypage = () => {
             <div className="inner-div">
               <div className="over-one-2">
                 <div className="main-state d-inline-block">
-                  <img
+                <img
                     style={{
                       width: 200,
                       height: 150,
                       marginLeft: "2rem",
                       marginTop: "-4rem"
                     }}
-                    src="WhatsApp_Image_2023-10-21_at_2.38.43_PM-removebg-preview.png"
-                    alt=""
+                    src ={require('../assets/image/Rectangle_1-removebg-preview.png')}
                   />
-                  <p className=" text-white mx-2 para-state fw-bold">
+                  <p className=" text-black mx-2 para-state fw-bold">
                     Himachali Topi
                   </p>
-                  <p className="text-white mx-2 fw-bold"> 599/-</p>
+                  <p className="text-black mx-2 fw-bold"> 599/-</p>
                 </div>
                 <div className="state-button">
                   <button
                     type="submit"
-                    className="btn  my-state-btn-2 shadow my-button-state text-black rounded-3   btn-sm "
+                    className="btn mt-2  my-state-btn-2 shadow my-button-state text-black rounded-3   btn-sm "
                   >
                     view Product
                   </button>
@@ -190,8 +187,10 @@ const Storypage = () => {
       <p className="para-state-2  fw-bold">
         Let us explore all of this with the help of producers themselves
       </p>
+      {/* <Mycarousel/> */}
+      <Mycarousel2/>
     </div>
-    <div className="container main-story mb-5 w-75 mt-5"></div>
+    {/* <div className="container main-story mb-5 w-75 mt-5"></div> */}
   </section>
   )
 }
