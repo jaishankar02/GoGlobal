@@ -1,6 +1,12 @@
 .my-search-container{
     /* border:1px solid red; */
     background-color: #45755B;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.my-be-seller-btn-nav{
+    cursor: pointer;
 }
 .my-h2{
     background-color: transparent;
@@ -32,3 +38,21 @@
 .my-like-icon{
     font-size: 26px;
 }
+.my-search-bg{
+    width: 35%;
+    margin-left: 13%;
+}
+.be-a-seller-btn{
+    margin-left: 6%;
+  
+}
+.my-link-be-seller{
+    margin-left: 5%;
+}
+.my-search-text{
+    align-content: center;
+    text-align: center;
+    outline:none;
+    
+}
+

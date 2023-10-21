@@ -7,24 +7,32 @@
     font-family: 'Poppins', sans-serif;
     width: 350px;
     padding: 15px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    border-bottom: 2px solid black;
     
-     outline: none;
-     border-bottom: 2px solid black;
-    
+}
+.form-row-seller-page{
+    margin-bottom: 1rem;
 }
 .select-seller{
     width: 350px;
     padding: 15px;
-    background-color: rgb(255, 255, 255);
+    
+    /* background-color: rgb(255, 255, 255); */
     margin-left: -0.5rem;
    
 }
-
+/* .my-select-optn{
+    border-bottom: 1px solid black;
+} */
 .my-login-btn-seller {
-    width: 50%;
+    width: 55%;
     padding: 8px;
-    background-color: #0e0e0e !important;
+    background-color :#45755B !important;
     margin-bottom: 4rem;
 }
 
@@ -37,12 +45,18 @@
     width: 500px;
     height: 300px;
     border: 2px solid black;
+
 }
 .line-last-seller{
     border: 2px solid black;
     width: 90%;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 .para-last-seller{
     font-size: 30px;
+}
+.plc-text{
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 8px;
 }

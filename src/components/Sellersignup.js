@@ -20,11 +20,11 @@ const Sellersignup = () => {
             <span>Enter your details below</span>
           </div>
           <div className="input-seller-page">
-            <div className="mt-2 ">
+            <div className="mt-4 ">
               <div className="form-row-seller-page   mt-2 ">
                 <label htmlfor="Seller-name">
                   <input
-                    className="text-start seller-boxes rounded-2 "
+                    className="text-start plc-text seller-boxes  "
                     type="text"
                     id="Seller-name"
                     placeholder="Full Name"
@@ -36,7 +36,7 @@ const Sellersignup = () => {
               <div className="form-row-seller-page  mt-2  ">
                 <label htmlfor="seller-no">
                   <input
-                    className="text-Start seller-boxes rounded-2 "
+                    className="text-Start plc-text seller-boxes  "
                     type="tel"
                     id="seller-no"
                     placeholder="Mobile No. "
@@ -48,7 +48,7 @@ const Sellersignup = () => {
               <div className="form-row-seller-page  mt-2">
                 <label htmlfor="seller-email">
                   <input
-                    className="text-start seller-boxes rounded-2 "
+                    className="text-start plc-text seller-boxes  "
                     type="email"
                     id="seller-email"
                     placeholder="Email"
@@ -60,7 +60,7 @@ const Sellersignup = () => {
               <div className="form-row-seller-page  mt-2">
                 <label htmlfor="seller-pass">
                   <input
-                    className="text-start seller-boxes rounded-2 "
+                    className="text-start plc-text seller-boxes  "
                     type="text"
                     id="seller-pass"
                     placeholder="Password"
@@ -69,22 +69,23 @@ const Sellersignup = () => {
                   />
                 </label>
               </div>
-              <div className="  select-seller mt-2 ">
-                <select className="select-seller " id="exampleSelect">
-                  <option>Select state</option>
-                  <option>Haryana</option>
-                  <option>Himachal</option>
-                  <option>Punjab</option>
+              <div className=" my-select-optn mx-2  mt-4 ">
+                <select className="select-seller plc-text rounded-3 " id="exampleSelect">
+                  <option  >Select state</option>
+                  <option value="1">Haryana</option>
+                  <option value="2">Punjab</option>
+                  <option value="3" >Himachal</option>
+
                 </select>
               </div>
               <div className="form-row-seller-page  mt-2">
                 <label htmlfor="seller-email">
                   <input
-                    className="text-start seller-boxes rounded-2 "
-                    type="email"
-                    id="seller-email"
-                    placeholder="Email"
-                    name="seller-email"
+                    className="text-start plc-text seller-boxes  "
+                    type="text"
+                    id="brand-name"
+                    placeholder="Enter your brand name:"
+                    name="brand-name"
                     required=""
                   />
                 </label>
@@ -92,18 +93,19 @@ const Sellersignup = () => {
               <div className="form-row-seller-page  mt-2">
                 <label htmlfor="seller-email">
                   <input
-                    className="text-start seller-boxes rounded-2 "
-                    type="email"
-                    id="seller-email"
-                    placeholder="Email"
-                    name="seller-email"
+                    className="text-start plc-text seller-boxes  "
+                    type="text"
+                    id="aadhar-number"
+                    placeholder="Enter Aadhar Card No."
+                    name="aadhar-number"
                     required=""
                   />
                 </label>
               </div>
+              
               <button
                 type="submit"
-                className="btn  my-login-btn-seller  text-center shadow my-button-login text-white rounded-1 py-3 mt-2  btn-sm "
+                className="btn mt-3  my-login-btn-seller  text-center shadow my-button-login text-white rounded-1 py-3 mt-2  btn-sm "
               >
                 Register &amp; Continue
               </button>

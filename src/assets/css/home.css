@@ -1,7 +1,7 @@
 .my-hero-section{
     background-color: #45755B;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 .my-transparent-part{
     background-color: transparent;
@@ -11,13 +11,21 @@
     
 }
 .my-hero-img{
-    height: 450px;
-    border-bottom-right-radius: 70px;
-    width: 130%;
-    margin-left: -40%;
+    margin-top: 8%;
+    height: 380px;
+    border-bottom-right-radius: 15px;
+    width: 90%;
+   
 }
 .my-sec2-heading{
     color: #45755B;
+}
+.my-colored-part{
+    cursor: pointer;
+}
+.my-colored-part:hover{
+    scale:1.06;
+    transition: ease 0.5s;
 }
 .my-car-item-img {
     height: 150px;
@@ -37,7 +45,12 @@
     background-color: transparent;
 }
 .my-colored-part{
-    background-color: #45755B;
+    /* background-color: #45755B; */
+}
+.coloring-container{
+    /* background-color: #45755B; */
+    padding: 0;
+    background: linear-gradient(90deg, #45755B,  #45755b68);
 }
 .my-best-seller-atc-btn{
     background-color: #45755B;
@@ -46,9 +59,12 @@
     border: 1.5px solid black;
 }
 .my-carousel-img{
-    height: 200px;
+    height: 250px;
     margin-left: 20%;
-    width: 300px;
+    width: 400px;
+}
+.my-likes-btn-carousel{
+    align-items: end;
 }
 .carousel-numbers{
     list-style: none;
@@ -59,7 +75,9 @@
     float: end;
 }
 .my-sale-img{
-    height: 450px;
+    height: 350px; 
+    margin-bottom: 0;
+    padding: 0;
     /* border-bottom-right-radius: 70px; */
     width: 100%;
     
@@ -69,8 +87,11 @@
     margin-left: 35%;
     
 }
+.my-sale-img-container{
+    padding: 0;
+}
 .my-text-col-home{
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .gradient_background {
     background: linear-gradient(90deg, #0062ff, #da61ff);

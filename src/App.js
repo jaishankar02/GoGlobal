@@ -11,6 +11,7 @@ import Buyersignup from './components/Buyersignup';
 import Billing from './components/Billing';
 import Sellersignup from './components/Sellersignup';
 import Cartlist from './components/Cartlist';
+import Storypage from './components/Storypage';
 const RouteJSX = (
   <>
     <Route path='/' element={<Layout />}>
@@ -19,6 +20,7 @@ const RouteJSX = (
       <Route path='/billing'  element={<Billing />} />
       <Route path='/sellersignup'  element={<Sellersignup />} />
       <Route path='/cartlist'  element={<Cartlist />} />
+      <Route path='/storypage'  element={<Storypage />} />
     </Route>
     <Route path='/login' element={<Login />} />
     <Route path='/buyerlogin' element={<Buyerlogin />} />

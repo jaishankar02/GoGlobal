@@ -51,9 +51,9 @@ const Home = () => {
   );
   return (
     <>
-      <section className="container-fluid mt-5">
+      <section className="container-fluid  mt-5">
         <div className="container  ">
-          <div className="row col-11 mx-5 my-hero-section">
+          <div className="row col-11 mx-5  my-hero-section">
             <div className="col-6 mt-2  my-transparent-part">
               <h1 className="text-white my-hero-heading mt-5 mx-5 my-transparent-part fw-bold">
                 Get the Best Products from specialists
@@ -63,20 +63,21 @@ const Home = () => {
                 lorem ipsum
               </h3>
               <div className="my-h2 mt-4 d-inline-block rounded-4">
-                <button className="rounded-4    my-seller-btn my-h2 my-hero-login-btn mx-5 px-5 py-2">
+               <Link className="my-trans-part" to={'/login'}> <button className="rounded-4    my-seller-btn my-h2 my-hero-login-btn mx-5 px-5 py-2">
                   Log In
-                </button>
+                </button></Link>
               </div>
               <div className="my-h2 d-inline-block rounded-4">
-                <button className="rounded-4  my-seller-btn my-h2 text-white mx-0 px-5 py-2">
+              <Link className="my-trans-part"
+              to={'/signup'}>   <button className="rounded-4  my-seller-btn my-h2 text-white mx-0 px-5 py-2">
                   Sign Up
-                </button>
+                </button></Link>
               </div>
             </div>
             <div className="col-6  my-transparent-part">
               <img
-                className="my-hero-img  my-transparent-part"
-                src={require("../assets/image/Untitled_design_1-removebg-preview.png")}
+                className="my-hero-img   my-transparent-part"
+                src={require("../assets/image/Untitled design (2).png")}
               />
             </div>
           </div>
@@ -118,47 +119,48 @@ const Home = () => {
       {/* btn */}
       <section className="container mt-5">
         <div className="my-h2 mx-5 d-inline-block rounded-4">
-          <button className="rounded-5 text-white   my-seller-btn my-h2 my-best-seller-atc-btn mx-5 px-5 py-3">
-            Best Seller
+        <Link to={'/login'}> <button className="rounded-5 text-white text-center  my-seller-btn my-h2 my-best-seller-atc-btn mx-5 px-5 py-3">
+        Best  Seller 
           </button>
+          </Link> 
         </div>
       </section>
       {/*  */}
-      <section className="container ">
+      <section className="container mb-5 ">
         <div className="col-12">
           <Mycarousel />
         </div>
       </section>
       {/*  */}
       <section  className="container-fluid  mt-5">
-        <div className="row mt-5">
-          <div className="col-3  my-transparent-part">
+        <div className="row mt-5 p-0  coloring-container">
+          <div className="col-3   my-transparent-part">
             <img
-              className="my-sale-img  my-transparent-part"
-              src={require("../assets/image/Untitled design (4) 1.png")}
+              className="my-sale-img my-transparent-part"
+              src={require("../assets/image/Untitled design (6) 1.png")}
             />
           </div>
       
-        <div className="col-6 ">
-          <h1 className="fw-bolder my-text-col-home text-center">Biggest Festival savings</h1>
-          <h2 className="text-center">on all your favourites</h2>
-          <div className="my-h2 my-cta-hom-btn mt-5  text-center align-items-center d-inline-block rounded-4">
+        <div className="col-6 my-trans-part">
+          <h1 className="fw-bolder mb-2 my-text-col-home text-white my-trans-part text-center">Biggest Festival savings</h1>
+          <h2 className="text-center text-white my-trans-part">on all your favourites</h2>
+          <div className="my-h2 my-cta-hom-btn mt-3  text-center align-items-center d-inline-block rounded-4">
           <button className="rounded-5 text-center text-white align-item-center   my-seller-btn my-h2 my-best-seller-atc-btn  px-5 py-3">
-           Whislist Now
+           Start Purchasing
           </button>
         </div>
         </div>
-        <div className="col-3  my-transparent-part">
+        <div className="col-3 my-sale-img-container  my-transparent-part">
           <img
             className="my-sale-img  my-transparent-part"
-            src={require("../assets/image/Untitled design (4) 1.png")}
+            src={require("../assets/image/Untitled design (9).png")}
           />
         </div>
         </div>
       </section>
       {/*  */}
       <section className=" py-5 mt-5 font-family ">
-  <section className="container-fluid mt-5 py-5   my-element-area ">
+  <section className="container-fluid mt-3 py-4   my-element-area ">
     <div className="row mx-auto ">
    
       <div className="col-lg-4 mt-lg-0 mt-5 mb-5 mx-auto text-center">
