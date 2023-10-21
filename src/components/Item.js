@@ -2,6 +2,7 @@ import React from "react";
 import { AiTwotoneStar } from "react-icons/ai";
 import { BsStarHalf } from "react-icons/bs";
 const Item = ({ data }) => {
+  console.log(data?.productImage);
   return (
     // <div className="row mt-5 p-4  mx-auto gx-lg-5">
     <div className="col-lg-3 col-md-3 mx-3  d-inline-block">
@@ -14,7 +15,7 @@ const Item = ({ data }) => {
                 {" "}
                 <img
                   className="my-car-item-img  align-item-center "
-                  src={require("../assets/image/Rectangle_1-removebg-preview.png")}
+                  src={`http://http//localhost:8800/images/${data?.productImage}`}
                 />
               </div>
             </div>

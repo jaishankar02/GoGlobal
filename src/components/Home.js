@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/css/home.css";
 import { Link, useNavigate } from "react-router-dom";
 import { TbTruckDelivery } from "react-icons/tb";
@@ -15,6 +15,7 @@ import Mycarousel from "./Mycarousel";
 import Footer from "./Footer";
 // import { Carousel } from "bootstrap";
 const Home = () => {
+    const [isLogin, setIslogin] = useState(true);
     const navigate = useNavigate();
     const cookies = new Cookies();
     const { data: homeProducts } = useQuery(
@@ -24,6 +25,7 @@ const Home = () => {
             console.log(accessToken);
             if (!accessToken) {
                 // navigate('/login');
+                setIslogin(false);
             }
             const tokenData = jwtDecode(accessToken);
             const currentTime = Math.floor(Date.now() / 1000);
@@ -64,15 +66,21 @@ const Home = () => {
                                 lorem ipsum
                             </h3>
                             <div className="my-h2 shadow-lg mt-4 d-inline-block rounded-4">
-                                <Link className="my-trans-part " to={'/login'}> <button className="rounded-4  shadow-lg  my-seller-btn my-h2 my-hero-login-btn mx-5 px-5 py-2">
-                                    Log In
-                                </button></Link>
+                                {
+                                    !isLogin && <Link className="my-trans-part " to={'/login'}> <button className="rounded-4  shadow-lg  my-seller-btn my-h2 my-hero-login-btn mx-5 px-5 py-2">
+                                        Log In
+                                    </button></Link>
+                                }
+
                             </div>
                             <div className="my-h2 d-inline-block shadow-lg rounded-4">
-                                <Link className="my-trans-part "
-                                    to={'/signup'}>   <button className="rounded-4 shadow-lg my-seller-btn my-h2 text-white mx-0 px-5 py-2">
-                                        Sign Up
-                                    </button></Link>
+                                {
+                                    !isLogin && <Link className="my-trans-part "
+                                        to={'/signup'}>   <button className="rounded-4 shadow-lg my-seller-btn my-h2 text-white mx-0 px-5 py-2">
+                                            Sign Up
+                                        </button></Link>
+                                }
+
                             </div>
                         </div>
                         <div className="col-6  my-transparent-part">
@@ -94,7 +102,7 @@ const Home = () => {
                     </div>
                     <div className="col-5 mx-5 px-4">
                         <h5 className="my-hero-heading px-3 mt-5 py-3 mx-5 ">
-                            <Link className=" fw-bolder mx-3 text-black" to={""}>
+                            <Link className=" fw-bolder mx-3 text-black" to={"/productcategory"}>
                                 View state wise products
                             </Link>
                         </h5>
