@@ -5,7 +5,7 @@ const Mycarousel = () => {
   return (
     <section>
     <div
-    style={{ marginTop: "8%" }}
+    style={{ marginTop: "5%" }}
     className="container  font-family mb-5 my-crousel "
   >
     <div className="row mx-3 my-auto   card rounded-5">

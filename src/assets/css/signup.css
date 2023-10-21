@@ -40,7 +40,10 @@ label {
     border-top: 0;
     /* background-color: #f9be40c1; */
 }
-
+.my-signup-img {
+    height: 500px;
+    width: 700px;
+}
 .my-signup-btn{
     width: 60%;
     background-color: #45755B !important;

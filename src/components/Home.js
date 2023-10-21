@@ -69,14 +69,14 @@ const Home = () => {
                                 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                                 lorem ipsum
                             </h3>
-                            <div className="my-h2 mt-4 d-inline-block rounded-4">
-                                <Link className="my-trans-part" to={'/login'}> <button className="rounded-4    my-seller-btn my-h2 my-hero-login-btn mx-5 px-5 py-2">
+                            <div className="my-h2 shadow-lg mt-4 d-inline-block rounded-4">
+                                <Link className="my-trans-part " to={'/login'}> <button className="rounded-4  shadow-lg  my-seller-btn my-h2 my-hero-login-btn mx-5 px-5 py-2">
                                     Log In
                                 </button></Link>
                             </div>
-                            <div className="my-h2 d-inline-block rounded-4">
-                                <Link className="my-trans-part"
-                                    to={'/signup'}>   <button className="rounded-4  my-seller-btn my-h2 text-white mx-0 px-5 py-2">
+                            <div className="my-h2 d-inline-block shadow-lg rounded-4">
+                                <Link className="my-trans-part "
+                                    to={'/signup'}>   <button className="rounded-4 shadow-lg my-seller-btn my-h2 text-white mx-0 px-5 py-2">
                                         Sign Up
                                     </button></Link>
                             </div>
@@ -92,7 +92,7 @@ const Home = () => {
             </section>
             {/* items */}
             <section className="container mt-5">
-                <div className="row mx-5 mb-5">
+                <div className="row mx-5 ">
                     <div className="col-6">
                         <h1 className="my-hero-heading  mt-5 my-sec2-heading fw-bolder">
                             Featured Products

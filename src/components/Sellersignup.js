@@ -14,9 +14,9 @@ const Sellersignup = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-6">
-          <div className="left-seller-page">
-            <p className="p-seller-page mt-5">Create an account </p>
+        <div className="col-5 mx-5">
+          <div className="left-seller-page ">
+            <p className="p-seller-page text-start mt-5">Create an account </p>
             <span>Enter your details below</span>
           </div>
           <div className="input-seller-page">
@@ -113,15 +113,19 @@ const Sellersignup = () => {
           </div>
         </div>
         <div className="col-6 right-side-seller-page">
-          <div className="image-side mt-5">
-            <h1 />
+          <div className="image-side  py-5 text-start float-start mt-5">
+          {/* <div className="col-lg-12  col-md-12 mt-lg-0 mt-5 align-self-center"> */}
+                <img className="my-seller-signup-img mt-3" src  ={require('../assets/image/undraw_Mobile_login_re_9ntv-removebg-preview.png')}/>
+                {/* </div> */}
           </div>
-          <div className="faq-side ">
-            <p className="text-center para-last-seller mt-3">FAQ,s</p>
+          {/* <div className="faq-side  mt-5">
+            <p className="text-center mt-5 para-last-seller mt-3">FAQ,s</p>
             <hr className="line-last-seller" />
-          </div>
+          </div> */}
         </div>
+
       </div>
+    
     </div>
   </section>
   )

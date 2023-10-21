@@ -27,9 +27,10 @@ const SignUp = () => {
         <section className="p-0  my-element-area-signup font-family">
             <div className="row gx-0  ">
                 <h1 className="text-center">
-                    You can start Selling once you complete this
+                    You can start Buying once you complete this
                 </h1>
-                <div className="col-lg-7 col-md-12 mt-lg-0 mt-5 align-self-center">
+                <div className="col-lg-6 mx-5 col-md-12 mt-lg-0 mt-5 align-self-center">
+                <img className="my-signup-img mx-5 mt-3" src  ={require('../assets/image/undraw_Mobile_login_re_9ntv-removebg-preview.png')}/>
                     {/* <h1
               style={{ color: "#033063" }}
               className="my-heading our-hero-heading mb-5 text-center"

@@ -6,7 +6,7 @@ const Item = ({ data }) => {
     // <div className="row mt-5 p-4  mx-auto gx-lg-5">
     <div className="col-lg-3 col-md-3 mx-3  d-inline-block">
       <div className="card my-colored-part  my-home-item-card rounded-3 shadow-lg border-white rounded-3">
-        <div className="card-body mb-0 py-4 rounded-3 ">
+        <div className="card-body mb-0 py-2 rounded-3 ">
           <div >
             <div className="my-colored-part">
               <h2 className="text-center fw-bolder text-black my-trans-part">{data?.productname}</h2>

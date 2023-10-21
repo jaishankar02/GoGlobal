@@ -54,6 +54,6 @@
 .my-login-btn {
     width: 34%;
     padding: 7px;
-    background-color: #0e0e0e !important;
+    /* background-color: #0e0e0e !important; */
     margin-left: rem;
 }

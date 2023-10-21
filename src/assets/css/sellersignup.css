@@ -36,14 +36,21 @@
     margin-bottom: 4rem;
 }
 
-.image-side{
-    width: 500px;
+/* .image-side{
+    width: 350px;
     height: 300px;
+    margin-left: 0%;
+    padding-left: 0;
     
+} */
+.my-seller-signup-img{
+    width: 650px;
+    height: 500px;
 }
 .faq-side{
     width: 500px;
     height: 300px;
+    margin-top: 20%;
     border: 2px solid black;
 
 }

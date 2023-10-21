@@ -28,9 +28,10 @@ const Login = () => {
         <section className="p-0  my-element-area font-family">
             <div className="row gx-0  ">
                 <h1 className="text-center">
-                    You can start Selling once you complete this
+                    You can start Buying once you complete this
                 </h1>
-                <div className="col-lg-7 col-md-12 mt-lg-0 mt-5 align-self-center">
+                <div className="col-lg-6 col-md-12 mx-5 mt-lg-0 mt-5 align-self-center">
+                    <img className="my-login-img mx-5 mt-3" src  ={require('../assets/image/undraw_Authentication_re_svpt-removebg-preview.png')}/>
                     {/* <h1
           style={{ color: "#033063" }}
           className="my-heading our-hero-heading mb-5 text-center"
@@ -70,7 +71,7 @@ const Login = () => {
                 </div>
                 <div className="col-lg-5 ">
                     <div className="   my-form-start mb-lg-0 mb-5 ">
-                        <div className="form-section   col-lg-12 justify-content-center card-body text-start">
+                        <div className="form-section  mt-0 col-lg-12 justify-content-center card-body text-start">
                             <h2 className="form-heading text-black text-start mt-5 fw-bold">
                                 Log in to Go Global
                             </h2>
