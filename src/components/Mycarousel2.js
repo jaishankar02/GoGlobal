@@ -3,6 +3,7 @@ import React from "react";
 const Mycarousel2 = () => {
   return (
     <section>
+      <h4 className="text-center fw-bolder">Ever wondered how these products are made?</h4>
       <div
         style={{ marginTop: "5%" }}
         className="container  font-family mb-5 my-crousel "
