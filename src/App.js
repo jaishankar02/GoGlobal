@@ -22,19 +22,20 @@ const RouteJSX = (
   <>
     <Route path='/' element={<Layout />}>
       <Route index element={<Home />} />
-      <Route path='/contact'  element={<Contact />} />
-      <Route path='/billing'  element={<Billing />} />
-      <Route path='/sellersignup'  element={<Sellersignup />} />
-      <Route path='/cartlist'  element={<Cartlist />} />
-      <Route path='/storypage'  element={<Storypage />} />
-      <Route path='/productlist'  element={<Productlist />} />
-      <Route path='/productcategory'  element={<Productcategory />} />
-      <Route path='/profile'  element={<Profile />} />
-      <Route path='/profileview'  element={<Profileview />} />
-      <Route path='/sellerdashboard'  element={<Sellerdashboard/>} />
-      <Route path='/productpreview/:productID'  element={<Productpreview/>} />
+      <Route path='/contact' element={<Contact />} />
+      <Route path='/billing' element={<Billing />} />
+
+      <Route path='/cartlist' element={<Cartlist />} />
+      <Route path='/storypage' element={<Storypage />} />
+      <Route path='/productlist' element={<Productlist />} />
+      <Route path='/productcategory' element={<Productcategory />} />
+      <Route path='/profile' element={<Profile />} />
+      <Route path='/profileview' element={<Profileview />} />
+      <Route path='/sellerdashboard' element={<Sellerdashboard />} />
+      <Route path='/productpreview/:productID' element={<Productpreview />} />
     </Route>
     <Route path='/login' element={<Login />} />
+    <Route path='/sellersignup' element={<Sellersignup />} />
     <Route path='/buyerlogin' element={<Buyerlogin />} />
     <Route path='/signup' element={<SignUp />} />
     <Route path='/buyersignup' element={<Buyersignup />} />

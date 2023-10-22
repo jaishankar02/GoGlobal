@@ -5,6 +5,7 @@ import Mycarousel2 from './Mycarousel2';
 import Cookies from 'universal-cookie';
 import axios from 'axios';
 const Productcategory = () => {
+
   const [state, setState] = useState(0);
   const [category, setCategory] = useState('');
   const [search, setSearch] = useState(false);
@@ -115,7 +116,7 @@ const Productcategory = () => {
             </div>
           })
           }
-          {categoricalData?<Mycarousel2/>:<></>}
+          {categoricalData ? <Mycarousel2 /> : <></>}
           {
             categoricalData ? <></> : <><div className="col-4 box-shop mt-4 mb-5">
               <div className="box-one-shop rounded-2 ">

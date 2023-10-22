@@ -13,6 +13,7 @@ import Cookies from "universal-cookie";
 import axios from "axios";
 import Mycarousel from "./Mycarousel";
 import Footer from "./Footer";
+import Productpreview from "./Productpreview";
 // import { Carousel } from "bootstrap";
 const Home = () => {
     const [isLogin, setIslogin] = useState(true);
@@ -111,14 +112,13 @@ const Home = () => {
                 <div className="row">
                     <div className="col-12 mx-5 gx-lg-5">
                         {
-                            homeProducts?.data?.featuredProduct?.map((element) => {
-                                return <span className="mx-3">
+                            homeProducts?.data?.featuredProduct?.map((element, index) => {
+                                return <span className="mx-3" key={index}>
 
-                                  <Link to={'/productpreview/:productID'}><Item data={element} /></Link>  
+                                    <Link to={`/productpreview/${element._id}`}><Item data={element} /></Link>
                                 </span>
                             })
                         }
-
                         {/* <span className="mx-3">
                             {" "}
                             <Item />
