@@ -36,7 +36,7 @@ const Productcategory = () => {
         <div className="col mt-5">
           <div className="  mt-2 d-inline-block ">
             <select
-              className="select-shop-data  text-white rounded-2 "
+              className="select-shop-data  text-black rounded-2 "
               id="exampleSelect"
               onChange={(e) => setState(e.target.value)}
             >
